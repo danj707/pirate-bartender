@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>
+        Pirate Bartender : Aaarrrggghhhh!
+    </title>
+
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Pirata+One' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <header>
+        <h1>Step up and order yer drink you salty dog!</h1>
+    </header>
+
+    <section class="drink_selection">
+        <h2>Select yer ingredients</h2>
+        <form id="drink_form">
+            <div class="question">Do you like it strong?</div>
+            <div class="selection">
+                <select id="strong" name="strong" form="drink_form">
+                    <option value="yes" selected>Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+
+            <div class="question">Do ye like it with a salty tang?</div>
+            <div class="selection">
+                <select id="salty" name="salty" form="drink_form">
+                    <option value="yes" selected>Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+
+            <div class="question">Are ye a lubber who likes it bitter?</div>
+            <div class="selection">
+                <select id="bitter" name="bitter" form="drink_form">
+                    <option value="yes" selected>Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+
+            <div class="question">Would ye like a bit of sweetness with yer poison?</div>
+            <div class="selection">
+                <select id="sweet" name="sweet" form="drink_form">
+                    <option value="yes" selected>Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+
+            <div class="question">Are ye one for a fruity finish?</div>
+            <div class="selection">
+                <select id="fruity" name="fruity" form="drink_form">
+                    <option value="yes" selected>Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="submit">
+                <input class="searchbutton" type="submit" value="Make Yer Drink">
+            </div>
+        </form>
+    </section>
+
+    <section class="results">
+
+        Results go here, to be displayed later
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+/*
+* {
+    border: 1px solid red;
+}
+*/
+
+body {
+    font-family: 'Pirata One', cursive;
+    background: url(../images/Pirate-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    opacity: 0.75;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+select {
+    font-size: 18px;
+}
+
+.drink_selection {
+    margin: auto;
+    width: 60%;
+    background: lightgrey;
+    border-radius: 3px;
+}
+
+.question {
+    width: 70%;
+    display: inline-block;
+    font-size: 26px;
+    padding: 15px;
+}
+
+.selection {
+    width: 20%;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.submit {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.searchbutton {
+    background: black;
+    color: white;
+    font-size: 24px;
+}
+
+.results {
+    display: none;
+}
