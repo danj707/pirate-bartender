@@ -47,7 +47,7 @@ drinkIngredients.prototype = {
             order = "<h2>Choose some ingredients you landlubber!</h2>";
             $('div.results').append(order);
         } else {
-            $('div.results').append('<hr><h2>Here\'s your Drink Matey in your ' + container + '</h2><ul>' + order + '</ul>');
+            $('div.results').append('<hr><h2>Here\'s your drink matey in your ' + container + '</h2><ul>' + order + '</ul>');
         }
     }
 };
