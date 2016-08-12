@@ -17,13 +17,18 @@ header {
     text-align: center;
 }
 
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
 h1 {
-    font-size: 48px;
+    font-size: 32px;
     text-align: center;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -41,8 +46,8 @@ select {
 .question {
     width: 70%;
     display: inline-block;
-    font-size: 26px;
-    padding: 15px;
+    font-size: 22px;
+    padding: 10px;
 }
 
 .selection {
@@ -50,21 +55,27 @@ select {
     display: inline-block;
     align-content: center;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .submit {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
 .searchbutton {
     background: black;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .results {
+    width: 100%;
     display: none;
+    text-align: center;
+}
+
+.audio {
+    text-align: center;
 }
